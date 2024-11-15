@@ -1,0 +1,8 @@
+INFO: Daemon (PID 1492) initiated with Namespace(port='62485', server='https://www.blenderkit.com', proxy_which='SYSTEM', proxy_address='', trusted_ca_certs='', ip_version='BOTH', ssl_context='DEFAULT', system_id='251101362721911', version='3.11.0.240207') [20:19:06.794, daemon.py:429]
+INFO: Loading certifi certs from C:\Users\gulad\blenderkit_data\daemon\dependencies\3-11-0\3-11\installed\certifi\cacert.pem [20:19:06.862, daemon.py:320]
+INFO: Loading blenderkit-com-chain.pem from C:\Users\gulad\AppData\Roaming\Blender Foundation\Blender\4.1\scripts\addons\blenderkit\daemon\certs/blenderkit-com-chain.pem [20:19:07.570, daemon.py:324]
+INFO: SSLContext stats: {'x509': 165, 'crl': 0, 'x509_ca': 162} [20:19:07.623, daemon.py:331]
+======== Running on http://127.0.0.1:62485 ========
+(Press CTRL+C to quit)
+ERROR: CATEGORIES_UPDATE task error, taskID: 47451373-29ec-4d2e-b6d5-f0c69ace11d2, appID: 21112, message: Get categories failed: Cannot connect to host www.blenderkit.com:443 ssl:default [getaddrinfo failed] [daemon_search.py:193], detailed: Get categories failed: <class 'aiohttp.client_exceptions.ClientConnectorError'>: Cannot connect to host www.blenderkit.com:443 ssl:default [getaddrinfo failed], result: {}, data: {'app_id': 21112, 'api_key': ''} [20:19:08.375, daemon.py:224]
+ERROR: DISCLAIMER task error, taskID: ef75ee04-e9c4-4bf4-9825-844688510064, appID: 21112, message: Get disclaimer failed: Cannot connect to host www.blenderkit.com:443 ssl:default [getaddrinfo failed] [daemon_disclaimer.py:41], detailed: Get disclaimer failed: <class 'aiohttp.client_exceptions.ClientConnectorError'>: Cannot connect to host www.blenderkit.com:443 ssl:default [getaddrinfo failed], result: {}, data: {'app_id': 21112, 'api_key': ''} [20:19:08.375, daemon.py:224]
